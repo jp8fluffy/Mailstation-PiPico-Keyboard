@@ -1,0 +1,13 @@
+[project]
+name = "mailstation_pipico_keyboard"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "mpremote",
+    "ruff",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "micropython-rp2-pico-stubs",
+]

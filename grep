@@ -1,0 +1,9 @@
+grep
+LICENSE
+main.py
+__pycache__
+pyproject.toml
+pyrightconfig.json
+README.md
+uv.lock
+main.cpython-314.pyc
