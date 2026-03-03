@@ -47,7 +47,7 @@ keyboard.keymap = [
      KC.CAPSLOCK, KC.A, KC.S, KC.D, KC.F, KC.G, KC.H, KC.J,
      KC.K, KC.L, KC.COMMA, KC.DOT, KC.SLASH, KC.UP, KC.DOWN, KC.RIGHT,
      KC.LSHIFT, KC.Z, KC.X, KC.C, KC.V, KC.B, KC.N, KC.M,
-     KC.RCTRL, KC.NO, KC.NO, KC.SPACE, KC.NO, KC.NO, KC.RSHIFT, KC.NO
+     KC.RCTRL, KC.NO, KC.NO, KC.SPACE, KC.NO, KC.NO, KC.RSHIFT, KC.LEFT
      ]
 ]
 # keyboard.keymap = [
