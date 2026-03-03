@@ -6,13 +6,34 @@ from kmk.kmk_keyboard import KMKKeyboard
 from kmk.keys import KC
 from kmk.scanners import DiodeOrientation
 
+columns = [
+       ]
+
 keyboard = KMKKeyboard()
 
-keyboard.col_pins = (board.GP17, board.GP2, board.GP4, board.GP6, board.GP8, 
-                     board.GP11, board.GP13, board.GP15)
-
-keyboard.row_pins = (board.GP0, board.GP9, board.GP12, board.GP3, board.GP14, 
-                     board.GP5, board.GP16, board.GP7, board.GP10)
+keyboard.col_pins = (
+    board.GP17,
+    board.GP2,
+    board.GP4,
+    board.GP6,
+    board.GP8,
+    board.GP11,
+    board.GP13,
+    board.GP15
+)
+ 
+keyboard.row_pins = (
+    board.GP0,
+    board.GP9,
+    board.GP1,
+    board.GP12,
+    board.GP3,
+    board.GP14,
+    board.GP5,
+    board.GP16,
+    board.GP7,
+    board.GP10
+)
 keyboard.diode_orientation = DiodeOrientation.COL2ROW
 
 keyboard.keymap = [
