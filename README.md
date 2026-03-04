@@ -1,5 +1,6 @@
 # Mailstation-PiPico-Keyboard
-Uses [Circuit Python's](https://circuitpython.org/) built-in USB-HID modules along with a [Raspberry Pi Pico](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html) to convert the keyboard on the Cidco mailstation to a USB keyboard.
+Uses [Circuit Python](https://circuitpython.org/)  (built-in USB-HID modules) and [KMK](https://github.com/KMKfw/kmk_firmware) (Easy Keyboard Layout) with a [Raspberry Pi Pico](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html) to 
+convert the keyboard on the Cidco mailstation to a USB keyboard. 
 
 ## Mailstation Keyboard to PICO Pinout
 | **Signal** | **Keyboard Pins** | **Pico Pins** |
@@ -23,3 +24,21 @@ Uses [Circuit Python's](https://circuitpython.org/) built-in USB-HID modules alo
 | Row 8      | 8                 | GP7           |
 | Row 9      | 11                | GP10          |
 
+*Keyboard pin [mapping](https://github.com/kbembedded/mailstation/wiki/Keyboard-Information) 
+was done based on the wonderful work of [Kris Bahnsen](https://github.com/kbembedded)*
+
+## KMK Matrix
+The rows and columns layout is a bit wierd. The following table was taken from [Kris Bahnsen's Repo on the Mailstation Keyboard](https://github.com/kbembedded/mailstation/wiki/Keyboard-Information)
+
+|       | Col 7                | Col 6        | Col 5                  | Col 4 | Col 3 | Col 2   | Col 1 | Col 0         |
+|-------|----------------------|--------------|------------------------|-------|-------|---------|-------|---------------|
+| Row 0 | F5                   | F4           | F3                     | F2    | F1    | "Print" | "Back"| "Main Menu"   |
+| Row 1 | "PgUp" ["Prev"]      | "Get E-Mail" | "Check Spelling"       | "Size"| @     |         |       |               |
+| Row 2 | 7                    | 6            | 5                      | 4     | 3     | 2       | 1     | ` (Backtick)  |
+| Row 3 | "PgDn" ["Next"]      | \            | "Delete" (Backspace)   | =     | -     | 0       | 9     | 8             |
+| Row 4 | u                    | y            | t                      | r     | e     | w       | q     | "Tab"         |
+| Row 5 | "Enter"              | '            | ;                      | ]     | [     | p       | o     | i             |
+| Row 6 | j                    | h            | g                      | f     | d     | s       | a     | "Caps Lock"   |
+| Row 7 | Right Arrow ["End"]  | Down Arrow   | Up Arrow               | /     | .     | ,       | l     | k             |
+| Row 8 | m                    | n            | b                      | v     | c     | x       | z     | Left Shift    |
+| Row 9 | Left Arrow ["Home"]  | Right Shift  |                        |       | Space |         |       | Fn / Function |
