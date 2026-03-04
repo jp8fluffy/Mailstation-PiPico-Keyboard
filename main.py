@@ -50,16 +50,6 @@ keyboard.keymap = [
      KC.RCTRL, KC.NO, KC.NO, KC.SPACE, KC.NO, KC.NO, KC.RSHIFT, KC.LEFT
      ]
 ]
-# keyboard.keymap = [
-#         [
-#         KC.DELETE, KC.BSPACE, KC.PSCREEN, KC.F1, KC.F2, KC.F3, KC.F4, KC.F5, KC.N2, KC.NO, KC.NO,
-#         KC.GRAVE, KC.N1, KC.N2, KC.N3, KC.N4, KC.N5, KC.N6, KC.N7, KC.N8, KC.N9, KC.N0, KC.MINUS, KC.EQUAL, KC.BSPACE, KC.PGUP,
-#         KC.TAB, KC.Q, KC.W, KC.E, KC.R, KC.T, KC.Y, KC.U, KC.I, KC.O, KC.P, KC.LBRACKET, KC.RBRACKET, KC.BSLASH, KC.BSLASH, KC.PGDN,
-#         KC.CAPSLOCK, KC.A, KC.S, KC.D, KC.F, KC.G, KC.H, KC.J, KC.K, KC.L, KC.SCOLON, KC.QUOTE, KC.ENTER, 
-#         KC.LSHIFT, KC.Z, KC.X, KC.C, KC.V, KC.B, KC.N, KC.M, KC.COMMA, KC.DOT, KC.SLASH, KC.RSHIFT, KC.UP,
-#         KC.LGUI, KC.NO, KC.NO, KC.SPACE, KC.NO, KC.NO, KC.LEFT, KC.RIGHT, KC.DOWN
-#         ]
-# ]
 
 if __name__ == '__main__':
     keyboard.go()
