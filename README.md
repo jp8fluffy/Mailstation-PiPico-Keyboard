@@ -1,8 +1,18 @@
 # Mailstation-PiPico-Keyboard
+
 Uses [Circuit Python](https://circuitpython.org/)  (built-in USB-HID modules) and [KMK](https://github.com/KMKfw/kmk_firmware) (Easy Keyboard Layout) with a [Raspberry Pi Pico](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html) to 
 convert the keyboard on the Cidco mailstation to a USB keyboard. 
 
+<img width="665" height="318" alt="image" src="https://github.com/user-attachments/assets/465d21cc-89b3-42fb-a77b-fedfdf9e9e81" />
+
+_Image courtesy of [Dr. Frankintosh](https://drfrancintosh.wordpress.com/cidco-mailstation/)_
+
+
+
 ## Mailstation Keyboard to PICO Pinout
+
+![IMG_20260303_191644](https://github.com/user-attachments/assets/88ef083e-8115-4d15-9808-a617665cded1)
+
 | **Signal** | **Keyboard Pins** | **Pico Pins** |
 |------------|-------------------|---------------|
 | Col 0      | 18                | GP17          |
